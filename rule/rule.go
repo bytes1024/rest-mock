@@ -8,14 +8,14 @@ const (
 
 type Mode int32
 
-func (m Mode) string() string {
+func (m Mode) String() string {
 	switch m {
 	case NameSpace:
-		return "namespace"
+		return "NS"
 	case Project:
-		return "project"
+		return "PJ"
 	case URL:
-		return "url"
+		return "RL"
 	default:
 		return ""
 	}
